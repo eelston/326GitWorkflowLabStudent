@@ -49,4 +49,12 @@ function runReciprocal() {
 
 // TODO: Implement run your functions here
 
+// watch for keyboard input
+document.addEventListener("keyup", (event) => {
+    const keyName = event.key; // https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values#numeric_keypad_keys
+    if (new RegExp("[0-9]").test(keyName)) { // check if key pressed is a number
+        appendToDisplay(keyName) // append to display
+    }
+        
 
+})
