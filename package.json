@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "assert": "^2.0.0",
-    "mocha": "^9.0.0"
+    "mocha": "^11.1.0"
   }
 }
